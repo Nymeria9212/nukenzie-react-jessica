@@ -18,7 +18,8 @@
   align-items: center;
   justify-content: center;
   width: 90%;
-  margin-top: 4rem;
+  width: 100vw;
+  background-color: var(--grey-scale-4);
 }
 .informPage {
   display: flex;
@@ -66,7 +67,7 @@
 }
 .userPage {
   width: 100%;
-  height: fit-content;
+  height: 100vh;
   background-color: var(--grey-scale-1);
 }
 .main-User {
@@ -112,7 +113,8 @@
   .section-2 {
     width: 50%;
   }
-  .userPage {
+  #root {
+    background-color: var(--grey-scale-1);
     height: 100vh;
   }
 }
