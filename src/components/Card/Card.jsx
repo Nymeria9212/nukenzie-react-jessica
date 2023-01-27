@@ -1,6 +1,6 @@
 import "./style.css";
 
-export function Card({ transaction, index, remove }) {
+export function Card({ transaction, index }) {
   return (
     <>
       <li>
@@ -11,7 +11,7 @@ export function Card({ transaction, index, remove }) {
         <div className="div-btn-card">
           <span>{`R$ ${transaction.value}`}</span>
           <button
-            className="trash"
+            className="trashItem"
             onClick={() => {
               remove(index);
             }}

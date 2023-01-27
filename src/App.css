@@ -50,6 +50,7 @@
   background-image: url("./assets/Illustration.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .btn-PageUser {
