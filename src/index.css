@@ -1,0 +1,33 @@
+:root {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--grey-scale-4);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-primary: #fd377e;
+  --color-primary2: #e34981;
+  --color-secundary: #03b898;
+  --grey-scale-4: #212529;
+  --grey-scale-3: #868e96;
+  --grey-scale-2: #e9ecef;
+  --grey-scale-1: #f8f9fa;
+  --white: #fff;
+  --font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-direction: column;
+}

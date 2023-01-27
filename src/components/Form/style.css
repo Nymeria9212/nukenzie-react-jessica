@@ -1,0 +1,53 @@
+form {
+  color: var(--grey-scale-4);
+  width: 100%;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 2px var(--grey-scale-2);
+  border-radius: 6px;
+}
+form > button {
+  background-color: var(--color-primary);
+  height: 48px;
+  width: 80%;
+  color: var(--grey-scale-1);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: large;
+}
+.div-1 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-1 > input {
+  width: 90%;
+  height: 2rem;
+}
+.div-1 > h3,
+p {
+  align-self: baseline;
+  padding-left: 1rem;
+}
+.div-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.div-2 > div > input {
+  height: 30px;
+}
+.div-2 > div {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  form {
+    width: 70%;
+  }
+} ;

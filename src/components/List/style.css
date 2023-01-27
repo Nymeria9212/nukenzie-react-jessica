@@ -1,0 +1,15 @@
+ul {
+  color: var(--grey-scale-4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 95%;
+  height: 75rem;
+  margin: 0;
+  gap: 1rem;
+}
+.imgOff {
+  height: 100%;
+  width: 100%;
+}

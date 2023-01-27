@@ -1,0 +1,104 @@
+#root {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: center;
+}
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home-Logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 4rem;
+}
+.informPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 50%;
+  gap: 25px;
+}
+.inform {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 35px;
+  width: 70%;
+}
+.inform > h1 {
+  text-align: initial;
+}
+.inform > img {
+  height: 30px;
+}
+.ilustrationPage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ilustrationPage > img {
+  height: 600px;
+}
+.btn-PageUser {
+  background-color: var(--color-primary);
+  height: 48px;
+  width: 230px;
+  border-radius: 6px;
+  border: none;
+  color: var(--grey-scale-1);
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+}
+.userPage {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--grey-scale-1);
+}
+.main-User {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.section-1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.section-2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .Home-Logo {
+    flex-direction: row;
+  }
+  .main-User {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .section-1 {
+    width: 50%;
+  }
+  .section-2 {
+    width: 50%;
+  }
+}
