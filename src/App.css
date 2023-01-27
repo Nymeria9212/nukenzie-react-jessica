@@ -43,13 +43,15 @@
 }
 .ilustrationPage {
   width: 50%;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("./assets/Illustration.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.ilustrationPage > img {
-  height: 600px;
-}
+
 .btn-PageUser {
   background-color: var(--color-primary);
   height: 48px;
@@ -83,8 +85,16 @@
 }
 .section-2 {
   width: 90%;
+  height: 40rem;
   display: flex;
   flex-direction: column;
+}
+
+.image-home {
+  background-image: url("./assets/NuKenzie-white.svg");
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 130px;
 }
 
 @media (min-width: 768px) {
@@ -100,5 +110,8 @@
   }
   .section-2 {
     width: 50%;
+  }
+  .userPage {
+    height: 100vh;
   }
 }

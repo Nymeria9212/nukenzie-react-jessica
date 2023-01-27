@@ -5,9 +5,7 @@ export function List({ listTransactions, remove }) {
   return (
     <>
       {listTransactions.length == 0 ? (
-        <div>
-          <img className="imgOff" src="../../assets/notvalue.svg" alt="" />
-        </div>
+        <div className="imgOff"></div>
       ) : (
         <ul>
           <h2>Resumo financeiro</h2>

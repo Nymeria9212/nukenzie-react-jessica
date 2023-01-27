@@ -6,7 +6,7 @@ export function Header({ setPage }) {
   }
   return (
     <header>
-      <img src="src/assets/Nu Kenzie-black.svg" alt="Logo Nu Kenzie" />
+      <div className="imageNu"></div>
       <button onClick={home}>Início</button>
     </header>
   );

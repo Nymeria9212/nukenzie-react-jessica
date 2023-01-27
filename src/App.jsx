@@ -41,7 +41,7 @@ function App() {
         <div className="Home-Logo">
           <div className="informPage">
             <div className="inform">
-              <img src="src/assets/Nu Kenzie-white.svg" alt="" />
+              <div className="image-home"></div>
               <h1>Centralize o controle das suas finanças</h1>
               <p>de forma rápida e segura</p>
               <button className="btn-PageUser" onClick={enterAplication}>
@@ -49,9 +49,7 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="ilustrationPage">
-            <img src="src/assets/Illustration.svg" alt="" />
-          </div>
+          <div className="ilustrationPage"></div>
         </div>
       ) : (
         <div className="userPage">

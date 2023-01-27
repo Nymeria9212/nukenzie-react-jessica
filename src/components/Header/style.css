@@ -8,8 +8,11 @@ header {
   align-items: center;
   box-shadow: -2px 11px 67px -18px rgba(0, 0, 0, 0.418);
 }
-header > img {
+.imageNu {
   height: 40px;
+  width: 136px;
+  background-image: url("../../assets/NuKenzie-black.svg");
+  background-repeat: no-repeat;
 }
 header > button {
   height: 40px;
