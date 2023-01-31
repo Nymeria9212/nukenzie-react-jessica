@@ -4,7 +4,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  width: 95%;
+  width: 100%;
   height: 75rem;
   margin: 0;
   gap: 1rem;
@@ -15,4 +15,9 @@ ul {
   background-image: url("../../assets/notvalue.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media (min-width: 768px) {
+  ul {
+    width: 95%;
+  }
 }

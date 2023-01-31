@@ -100,7 +100,7 @@
   width: 130px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .Home-Logo {
     flex-direction: row;
   }

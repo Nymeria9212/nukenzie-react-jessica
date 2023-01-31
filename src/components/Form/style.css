@@ -46,8 +46,8 @@ p {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   form {
-    width: 70%;
+    width: 80%;
   }
 } ;

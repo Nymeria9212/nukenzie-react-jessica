@@ -1,3 +1,4 @@
+import { ButtonTrash } from "../ButtonTrash/ButtonTrash";
 import "./style.css";
 
 export function Card({ transaction, index, remove }) {
@@ -10,12 +11,7 @@ export function Card({ transaction, index, remove }) {
         </div>
         <div className="div-btn-card">
           <span>{`R$ ${transaction.value}`}</span>
-          <button
-            className="trash"
-            onClick={() => {
-              remove(index);
-            }}
-          ></button>
+          <ButtonTrash remove={remove} index={index} />
         </div>
       </li>
     </>

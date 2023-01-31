@@ -1,9 +1,9 @@
 import "./style.css";
 import { useState } from "react";
 export function Form({ addValue }) {
-  const [value, setValue] = useState("");
   const [valueDescription, setValueDescription] = useState("");
   const [type, setSelect] = useState("");
+  const [value, setValue] = useState("");
 
   return (
     <form onSubmit={(event) => event.preventDefault()}>
@@ -45,7 +45,7 @@ export function Form({ addValue }) {
             <option
               onChange={(event) => setSelect(event.target.value)}
               name="type"
-              value="saida"
+              value="saída"
             >
               Saída
             </option>

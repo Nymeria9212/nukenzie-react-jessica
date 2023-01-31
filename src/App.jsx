@@ -11,9 +11,9 @@ function App() {
   const [page, setPage] = useState("Home");
   const [listTransactions, setListTransactions] = useState([
     { description: "Salário recebido", type: "entrada", value: 2500 },
-    { description: "Conta de luz", type: "saída", value: -150 },
+    { description: "Conta de luz", type: "saída", value: 150 },
   ]);
-
+  console.log(listTransactions);
   function enterAplication() {
     setPage("NuPage");
   }
@@ -24,7 +24,9 @@ function App() {
   }
   function total() {
     const total = listTransactions.reduce((acumulat, valueItem) => {
-      return acumulat + valueItem.value;
+      return valueItem.type == "saída"
+        ? acumulat - Number(valueItem.value)
+        : acumulat + Number(valueItem.value);
     }, 0);
 
     return total;
