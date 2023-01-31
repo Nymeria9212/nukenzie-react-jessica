@@ -13,7 +13,7 @@
 .totalMoney > div > h3 {
   line-height: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .totalMoney {
     width: 70%;
   }
