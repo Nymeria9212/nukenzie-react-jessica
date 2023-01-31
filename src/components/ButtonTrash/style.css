@@ -1,10 +1,6 @@
 .trash {
-  height: 30px;
-  width: 30px;
-  background-image: url("../../assets/trash.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 25px;
+  width: 25px;
   border: none;
-  cursor: pointer;
   border-radius: 6px;
 }
