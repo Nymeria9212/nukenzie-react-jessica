@@ -38,13 +38,21 @@ p {
   display: flex;
   justify-content: space-evenly;
   width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .div-2 > div > input {
   height: 30px;
+  width: 80%;
+}
+select {
+  height: 35px;
 }
 .div-2 > div {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
 @media (min-width: 769px) {
   form {
